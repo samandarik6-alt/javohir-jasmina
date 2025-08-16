@@ -158,28 +158,28 @@ export default function WeddingInvitation() {
               </div>
             </div>
           </div>
+<div className="bg-gradient-to-br from-black to-gray-800 text-white rounded-3xl p-8 text-center shadow-xl">
+  <h3 className="text-xl font-serif font-semibold mb-6">До свадьбы осталось:</h3>
+  <div className="grid grid-cols-4 gap-3 text-center">
+    <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-3 border border-white/10">
+      <div className="text-2xl font-bold">{timeLeft.days}</div>
+      <div className="text-xs text-gray-200 mt-1">дней</div>
+    </div>
+    <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-3 border border-white/10">
+      <div className="text-2xl font-bold">{timeLeft.hours}</div>
+      <div className="text-xs text-gray-200 mt-1">часов</div>
+    </div>
+    <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-3 border border-white/10">
+      <div className="text-2xl font-bold">{timeLeft.minutes}</div>
+      <div className="text-xs text-gray-200 mt-1">минут</div>
+    </div>
+    <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-3 border border-white/10">
+      <div className="text-2xl font-bold">{timeLeft.seconds}</div>
+      <div className="text-xs text-gray-200 mt-1">секунд</div>
+    </div>
+  </div>
+</div>
 
-          <div className="bg-gradient-to-br from-black to-gray-800 text-white rounded-3xl p-8 text-center shadow-xl">
-            <h3 className="text-2xl font-serif font-semibold mb-6">До свадьбы осталось:</h3>
-            <div className="grid grid-cols-4 gap-3 text-center">
-              <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-4 border border-white/10">
-                <div className="text-3xl font-bold">{timeLeft.days}</div>
-                <div className="text-sm text-gray-200 mt-1">дней</div>
-              </div>
-              <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-4 border border-white/10">
-                <div className="text-3xl font-bold">{timeLeft.hours}</div>
-                <div className="text-sm text-gray-200 mt-1">часов</div>
-              </div>
-              <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-4 border border-white/10">
-                <div className="text-3xl font-bold">{timeLeft.minutes}</div>
-                <div className="text-sm text-gray-200 mt-1">минут</div>
-              </div>
-              <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-4 border border-white/10">
-                <div className="text-3xl font-bold">{timeLeft.seconds}</div>
-                <div className="text-sm text-gray-200 mt-1">секунд</div>
-              </div>
-            </div>
-          </div>
 
           <div className="text-center space-y-6 bg-white rounded-3xl p-8 shadow-lg border border-gray-100">
             <h2 className="text-4xl font-serif font-semibold text-black">Дорогие друзья!</h2>
