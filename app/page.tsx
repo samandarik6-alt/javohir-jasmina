@@ -38,7 +38,7 @@ export default function WeddingInvitation() {
   }, [carouselImages.length])
 
   useEffect(() => {
-    const weddingDate = new Date("2025-08-24T18:00:00")
+    const weddingDate = new Date("2025-08-24T19:00:00")
 
     const timer = setInterval(() => {
       const now = new Date().getTime()
@@ -153,7 +153,7 @@ export default function WeddingInvitation() {
                 </div>
                 <div className="flex items-center justify-center space-x-4">
                   <Clock className="w-6 h-6 text-gray-600" />
-                  <span className="text-2xl text-gray-700 font-medium">18:00</span>
+                  <span className="text-2xl text-gray-700 font-medium">19:00</span>
                 </div>
               </div>
             </div>
@@ -188,12 +188,53 @@ export default function WeddingInvitation() {
               праздник еще более особенным.
             </p>
           </div>
+<div className="bg-white border-2 border-gray-200 rounded-3xl p-8 space-y-6 shadow-lg">
+            <div className="flex items-center space-x-6">
+              <Image
+                src="https://crm.uzjoylar.uz/img/6bd653dd-8d76-4d03-9766-86e89f3be167.jpg"
+                alt="Логотип Majestic ресторана"
+                width={70}
+                height={70}
+                className="rounded-full object-cover shadow-md"
+              />
+              <div className="flex-1">
+                <h3 className="font-serif font-semibold text-2xl">Majestic restoran</h3>
+                <p className="text-gray-600 text-lg">Место проведения</p>
+              </div>
+              <div className="flex space-x-3">
+                <a
+                  href="https://yandex.com/maps/10334/samarkand/?ll=66.981000%2C39.678658&mode=poi&poi%5Bpoint%5D=66.978144%2C39.680623&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D35251065058&z=17.03"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 bg-gradient-to-r from-black to-gray-800 text-white rounded-2xl hover:from-gray-800 hover:to-black transition-all duration-200 shadow-md"
+                >
+                  <MapPin className="w-6 h-6" />
+                </a>
+                <a
+                  href="https://www.instagram.com/majestic_restaurant.uz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 bg-gradient-to-r from-black to-gray-800 text-white rounded-2xl hover:from-gray-800 hover:to-black transition-all duration-200 shadow-md"
+                >
+                  <Instagram className="w-6 h-6" />
+                </a>
+              </div>
+            </div>
+
+            <Image
+              src="https://crm.uzjoylar.uz/img/97585f38-854b-45de-995e-505bfc30f6d7.jpg"
+              alt="Majestic ресторан"
+              width={400}
+              height={300}
+              className="w-full h-80 object-cover rounded-2xl shadow-lg"
+            />
+          </div>
 
           <div className="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 space-y-8 shadow-lg border border-gray-200">
             <div className="text-center">
               <h3 className="text-3xl font-serif font-semibold text-black">Подтверждение</h3>
               <p className="text-gray-600 text-base mt-3 font-light">
-                Пожалуйста, подтвердите свое присутствие до 15 августа 2025 года.
+                Пожалуйста, подтвердите свое присутствие до 20 августа 2025 года.
               </p>
             </div>
 
@@ -247,47 +288,7 @@ export default function WeddingInvitation() {
             </form>
           </div>
 
-          <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 space-y-6 shadow-lg">
-            <div className="flex items-center space-x-6">
-              <Image
-                src="https://crm.uzjoylar.uz/img/6bd653dd-8d76-4d03-9766-86e89f3be167.jpg"
-                alt="Логотип Majestic ресторана"
-                width={70}
-                height={70}
-                className="rounded-full object-cover shadow-md"
-              />
-              <div className="flex-1">
-                <h3 className="font-serif font-semibold text-2xl">Majestic restoran</h3>
-                <p className="text-gray-600 text-lg">Место проведения</p>
-              </div>
-              <div className="flex space-x-3">
-                <a
-                  href="https://yandex.com/maps/10334/samarkand/?ll=66.981000%2C39.678658&mode=poi&poi%5Bpoint%5D=66.978144%2C39.680623&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D35251065058&z=17.03"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-gradient-to-r from-black to-gray-800 text-white rounded-2xl hover:from-gray-800 hover:to-black transition-all duration-200 shadow-md"
-                >
-                  <MapPin className="w-6 h-6" />
-                </a>
-                <a
-                  href="https://www.instagram.com/majestic_restaurant.uz/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-gradient-to-r from-black to-gray-800 text-white rounded-2xl hover:from-gray-800 hover:to-black transition-all duration-200 shadow-md"
-                >
-                  <Instagram className="w-6 h-6" />
-                </a>
-              </div>
-            </div>
-
-            <Image
-              src="https://crm.uzjoylar.uz/img/a87c0c54-e92a-4ca3-8a0c-8342483815cf.png"
-              alt="Majestic ресторан"
-              width={400}
-              height={300}
-              className="w-full h-80 object-cover rounded-2xl shadow-lg"
-            />
-          </div>
+          
 
           <div className="text-center pt-12">
             <div className="flex items-center justify-center space-x-3 mb-6">
