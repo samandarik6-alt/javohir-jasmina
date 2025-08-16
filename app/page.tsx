@@ -9,9 +9,9 @@ import { useState, useEffect, useRef } from "react"
 export default function WeddingInvitation() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
   const carouselImages = [
-    "https://crm.uzjoylar.uz/img/cef51cc6-e6ad-4779-bd1f-57d5bb49488c.jpg",
-    "https://crm.uzjoylar.uz/img/c60055fd-c7e7-4a1a-bbed-c14602281f10.jpg",
-    "https://crm.uzjoylar.uz/img/64c553ad-83c3-47f8-bd16-8ecddfd58b15.jpg",
+    "https://crm.uzjoylar.uz/img/3244edf3-00cc-473b-ab76-976ffcfa346f.jpg",
+    "https://crm.uzjoylar.uz/img/c2965da3-c8e7-4fe9-902f-7f4aee270df0.jpg",
+    "https://crm.uzjoylar.uz/img/28e50c2e-d3f9-437b-ad14-5881cccdbd69.jpg",
   ]
 
   const [timeLeft, setTimeLeft] = useState({
@@ -271,7 +271,7 @@ export default function WeddingInvitation() {
             <div className="text-center">
               <h3 className="text-3xl font-serif font-semibold text-black">Подтверждение</h3>
               <p className="text-gray-600 text-base mt-3 font-light">
-                Пожалуйста, подтвердите свое присутствие до 15 августа 2025 года.
+                Пожалуйста, подтвердите свое присутствие до 20 августа 2025 года.
               </p>
             </div>
 
