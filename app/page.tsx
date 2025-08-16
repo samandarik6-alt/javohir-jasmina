@@ -9,10 +9,7 @@ import { useState, useEffect } from "react"
 export default function WeddingInvitation() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
   const carouselImages = [
-    "https://crm.uzjoylar.uz/img/8a991b57-0ef0-4c53-94ea-4f061c27f99e.jpg",
-    "https://crm.uzjoylar.uz/img/5b45aa77-bf41-414a-afdc-a2db4ce7c4e7.jpg",
-    "https://crm.uzjoylar.uz/img/4c7d402a-02be-426a-a6f7-837988221247.jpg",
-    "https://crm.uzjoylar.uz/img/2673947a-bf1e-4af8-b23d-9c251826a6ba.jpg",
+"https://crm.uzjoylar.uz/img/cef51cc6-e6ad-4779-bd1f-57d5bb49488c.jpg","https://crm.uzjoylar.uz/img/c60055fd-c7e7-4a1a-bbed-c14602281f10.jpg" ,"https://crm.uzjoylar.uz/img/64c553ad-83c3-47f8-bd16-8ecddfd58b15.jpg"
   ]
 
   const [timeLeft, setTimeLeft] = useState({

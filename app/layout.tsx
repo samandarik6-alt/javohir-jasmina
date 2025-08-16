@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: "Приглашение на свадьбу 24 августа 2025",
     images: [
       {
-        url: "https://crm.uzjoylar.uz/img/8a991b57-0ef0-4c53-94ea-4f061c27f99e.jpg", // Rasm URL
+        url: "https://crm.uzjoylar.uz/img/e1d2e999-0cb3-412c-b178-b4e69dfed589.jpg", // Rasm URL
         width: 1200,
         height: 630,
         alt: "Приглашение на свадьбу",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Жавохира и Жасмины",
     description: "Приглашение на свадьбу 24 августа 2025",
-    images: ["https://crm.uzjoylar.uz/img/8a991b57-0ef0-4c53-94ea-4f061c27f99e.jpg"], // Xuddi shu rasm
+    images: ["https://crm.uzjoylar.uz/img/e1d2e999-0cb3-412c-b178-b4e69dfed589.jpg"], // Xuddi shu rasm
   },
     generator: 'v0.app'
 };
