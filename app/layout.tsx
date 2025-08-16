@@ -36,7 +36,6 @@ export const metadata: Metadata = {
     description: "Приглашение на свадьбу 24 августа 2025",
     images: ["https://crm.uzjoylar.uz/img/3244edf3-00cc-473b-ab76-976ffcfa346f.jpg"], // Xuddi shu rasm
   },
-    generator: 'v0.app'
 };
 
 
