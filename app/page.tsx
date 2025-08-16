@@ -318,7 +318,7 @@ export default function WeddingInvitation() {
             </div>
 
             <Image
-              src="https://crm.uzjoylar.uz/img/a87c0c54-e92a-4ca3-8a0c-8342483815cf.png"
+              src="https://crm.uzjoylar.uz/img/a1b77f35-3f6f-418d-a027-ef898eebab78.jpg"
               alt="Majestic ресторан"
               width={400}
               height={300}
